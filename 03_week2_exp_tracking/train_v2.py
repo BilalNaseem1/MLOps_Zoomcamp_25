@@ -21,7 +21,7 @@ def load_pickle(filename: str):
     help="Location where the processed NYC taxi trip data was saved"
 )
 def run_train(data_path: str):
-    mlflow.set_experiment("Homework_2_experiment_2")
+    mlflow.set_experiment("Homework_2_experiment_3")
 
     with mlflow.start_run():
         mlflow.sklearn.autolog()  # optional, enables automatic logging
